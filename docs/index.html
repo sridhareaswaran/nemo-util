@@ -1,0 +1,1738 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset='utf-8' />
+  <title>nemo-util 1.0.0 | Documentation</title>
+  <meta name='description' content='Utility of NemoJS test automation.'>
+  <meta name='viewport' content='width=device-width,initial-scale=1'>
+  <link href='assets/bass.css' rel='stylesheet' />
+  <link href='assets/style.css' rel='stylesheet' />
+  <link href='assets/github.css' rel='stylesheet' />
+  <link href='assets/split.css' rel='stylesheet' />
+</head>
+<body class='documentation m0'>
+    <div class='flex'>
+      <div id='split-left' class='overflow-auto fs0 height-viewport-100'>
+        <div class='py1 px2'>
+          <h3 class='mb0 no-anchor'>nemo-util</h3>
+          <div class='mb1'><code>1.0.0</code></div>
+          <input
+            placeholder='Filter'
+            id='filter-input'
+            class='col12 block input'
+            type='text' />
+          <div id='toc'>
+            <ul class='list-reset h5 py1-ul'>
+              
+                
+                <li><a
+                  href='#scrolltotop'
+                  class="">
+                  scrollToTop
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#scrolltobottom'
+                  class="">
+                  scrollToBottom
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#maximizewindow'
+                  class="">
+                  maximizeWindow
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#scrollintoview'
+                  class="">
+                  scrollInToView
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#waitforjsready'
+                  class="">
+                  waitForJSReady
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#hoveron'
+                  class="">
+                  hoverOn
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#hoverandclick'
+                  class="">
+                  hoverAndClick
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#doubleclick'
+                  class="">
+                  doubleClick
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#rightclick'
+                  class="">
+                  rightClick
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#javascriptclick'
+                  class="">
+                  javascriptClick
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#clearinputvalue'
+                  class="">
+                  clearInputValue
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#getinputvalue'
+                  class="">
+                  getInputValue
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#setinputvalue'
+                  class="">
+                  setInputValue
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#ischecked'
+                  class="">
+                  isChecked
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#getinnertext'
+                  class="">
+                  getInnerText
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#isimageloaded'
+                  class="">
+                  isImageLoaded
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#getalllinkelements'
+                  class="">
+                  getAllLinkElements
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#getelementwithlinktext'
+                  class="">
+                  getElementWithLinkText
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#clickelementwithlinktext'
+                  class="">
+                  clickElementWithLinkText
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#waittillalertdisplayed'
+                  class="">
+                  waitTillAlertDisplayed
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#acceptalert'
+                  class="">
+                  acceptAlert
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#dismissalert'
+                  class="">
+                  dismissAlert
+                  
+                </a>
+                
+                </li>
+              
+            </ul>
+          </div>
+          <div class='mt1 h6 quiet'>
+            <a href='https://documentation.js.org/reading-documentation.html'>Need help reading this?</a>
+          </div>
+        </div>
+      </div>
+      <div id='split-right' class='relative overflow-auto height-viewport-100'>
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='scrolltotop'>
+      scrollToTop
+    </h3>
+    
+    
+  </div>
+  
+
+  <p>Scrolls to top of the webpage.</p>
+
+    <div class='pre p1 fill-light mt0'>scrollToTop()</div>
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Example</div>
+    
+      
+      <pre class='p1 overflow-auto round fill-light'>nemo.util.scrollToTop()</pre>
+    
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+          
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='scrolltobottom'>
+      scrollToBottom
+    </h3>
+    
+    
+  </div>
+  
+
+  <p>Scrolls to bottom of the webpage.</p>
+
+    <div class='pre p1 fill-light mt0'>scrollToBottom()</div>
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Example</div>
+    
+      
+      <pre class='p1 overflow-auto round fill-light'>nemo.util.scrollToBottom()</pre>
+    
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+          
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='maximizewindow'>
+      maximizeWindow
+    </h3>
+    
+    
+  </div>
+  
+
+  <p>Maximize browser window.</p>
+
+    <div class='pre p1 fill-light mt0'>maximizeWindow()</div>
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Example</div>
+    
+      
+      <pre class='p1 overflow-auto round fill-light'>nemo.util.maximizeWindow()</pre>
+    
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+          
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='scrollintoview'>
+      scrollInToView
+    </h3>
+    
+    
+  </div>
+  
+
+  <p>Scrolls to particular web element provided as the input.</p>
+
+    <div class='pre p1 fill-light mt0'>scrollInToView(webElement: WebElement)</div>
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>webElement</span> <code class='quiet'>(WebElement)</code>
+	    
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Example</div>
+    
+      
+      <pre class='p1 overflow-auto round fill-light'>nemo.util.maximizeWindow()</pre>
+    
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+          
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='waitforjsready'>
+      waitForJSReady
+    </h3>
+    
+    
+  </div>
+  
+
+  <p>Waits till the webpage completes loading Javascript.</p>
+
+    <div class='pre p1 fill-light mt0'>waitForJSReady(timeout: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>)</div>
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>timeout</span> <code class='quiet'>(<a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>
+            = <code>30000</code>)</code>
+	    Timeout in milliseconds. Defaults to 30 seconds.
+
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Example</div>
+    
+      
+      <pre class='p1 overflow-auto round fill-light'><span class="hljs-keyword">await</span> nemo.util.waitForJSReady(<span class="hljs-number">45</span> * <span class="hljs-number">1000</span>)</pre>
+    
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+          
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='hoveron'>
+      hoverOn
+    </h3>
+    
+    
+  </div>
+  
+
+  <p>Hovers on the web element provided.</p>
+
+    <div class='pre p1 fill-light mt0'>hoverOn(webElement: WebElement)</div>
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>webElement</span> <code class='quiet'>(WebElement)</code>
+	    Web element.
+
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Example</div>
+    
+      
+      <pre class='p1 overflow-auto round fill-light'><span class="hljs-keyword">let</span> element = <span class="hljs-keyword">await</span> nemo.view._find(<span class="hljs-string">'.result'</span>)
+<span class="hljs-keyword">await</span> nemo.util.hoverOn(element)</pre>
+    
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+          
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='hoverandclick'>
+      hoverAndClick
+    </h3>
+    
+    
+  </div>
+  
+
+  <p>Hovers and clicks on the web element provided.</p>
+
+    <div class='pre p1 fill-light mt0'>hoverAndClick(webElement: WebElement)</div>
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>webElement</span> <code class='quiet'>(WebElement)</code>
+	    Web element.
+
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Example</div>
+    
+      
+      <pre class='p1 overflow-auto round fill-light'><span class="hljs-keyword">let</span> element = <span class="hljs-keyword">await</span> nemo.view._find(<span class="hljs-string">'.result'</span>)
+<span class="hljs-keyword">await</span> nemo.util.hoverAndClick(element)</pre>
+    
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+          
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='doubleclick'>
+      doubleClick
+    </h3>
+    
+    
+  </div>
+  
+
+  <p>Double click on the web element provided.</p>
+
+    <div class='pre p1 fill-light mt0'>doubleClick(webElement: WebElement)</div>
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>webElement</span> <code class='quiet'>(WebElement)</code>
+	    Web element.
+
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Example</div>
+    
+      
+      <pre class='p1 overflow-auto round fill-light'><span class="hljs-keyword">let</span> element = <span class="hljs-keyword">await</span> nemo.view._find(<span class="hljs-string">'.result'</span>)
+<span class="hljs-keyword">await</span> nemo.util.doubleClick(element)</pre>
+    
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+          
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='rightclick'>
+      rightClick
+    </h3>
+    
+    
+  </div>
+  
+
+  <p>Right/Context click on the web element provided.</p>
+
+    <div class='pre p1 fill-light mt0'>rightClick(webElement: WebElement)</div>
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>webElement</span> <code class='quiet'>(WebElement)</code>
+	    Web element.
+
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Example</div>
+    
+      
+      <pre class='p1 overflow-auto round fill-light'><span class="hljs-keyword">let</span> element = <span class="hljs-keyword">await</span> nemo.view._find(<span class="hljs-string">'.result'</span>)
+<span class="hljs-keyword">await</span> nemo.util.rightClick(element)</pre>
+    
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+          
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='javascriptclick'>
+      javascriptClick
+    </h3>
+    
+    
+  </div>
+  
+
+  <p>Clicks on the web element using Javascript. Useful at places where selenium click doesn't works.</p>
+
+    <div class='pre p1 fill-light mt0'>javascriptClick(webElement: WebElement)</div>
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>webElement</span> <code class='quiet'>(WebElement)</code>
+	    Web element.
+
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Example</div>
+    
+      
+      <pre class='p1 overflow-auto round fill-light'><span class="hljs-keyword">let</span> element = <span class="hljs-keyword">await</span> nemo.view._find(<span class="hljs-string">'.result'</span>)
+<span class="hljs-keyword">await</span> nemo.util.javascriptClick(element)</pre>
+    
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+          
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='clearinputvalue'>
+      clearInputValue
+    </h3>
+    
+    
+  </div>
+  
+
+  <p>Clears value of <code>Input</code> tag element.</p>
+
+    <div class='pre p1 fill-light mt0'>clearInputValue(webElement_ID: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</div>
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>webElement_ID</span> <code class='quiet'>(<a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
+	    ID of the web element.
+
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Example</div>
+    
+      
+      <pre class='p1 overflow-auto round fill-light'>&lt;input id=<span class="hljs-string">'car'</span> value=<span class="hljs-string">'testla'</span>&gt;<span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">input</span>&gt;</span></span></pre>
+    
+      
+      <pre class='p1 overflow-auto round fill-light'><span class="hljs-keyword">await</span> nemo.util.clearInputValue(<span class="hljs-string">'car'</span>)</pre>
+    
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+          
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='getinputvalue'>
+      getInputValue
+    </h3>
+    
+    
+  </div>
+  
+
+  <p>Returns value of <code>Input</code> tag element.</p>
+
+    <div class='pre p1 fill-light mt0'>getInputValue(webElement_ID: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</div>
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>webElement_ID</span> <code class='quiet'>(<a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
+	    ID of the web element.
+
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Example</div>
+    
+      
+      <pre class='p1 overflow-auto round fill-light'>&lt;input id=<span class="hljs-string">'car'</span> value=<span class="hljs-string">'testla'</span>&gt;<span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">input</span>&gt;</span></span></pre>
+    
+      
+      <pre class='p1 overflow-auto round fill-light'><span class="hljs-keyword">let</span> value = <span class="hljs-keyword">await</span> nemo.util.getInputValue(<span class="hljs-string">'car'</span>) <span class="hljs-comment">// value = 'tesla'</span></pre>
+    
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+          
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='setinputvalue'>
+      setInputValue
+    </h3>
+    
+    
+  </div>
+  
+
+  <p>Sets value of <code>Input</code> tag element.</p>
+
+    <div class='pre p1 fill-light mt0'>setInputValue(webElement_ID: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>, value: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</div>
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>webElement_ID</span> <code class='quiet'>(<a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
+	    ID of the web element.
+
+          </div>
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>value</span> <code class='quiet'>(<a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
+	    Value to be updated.
+
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Example</div>
+    
+      
+      <pre class='p1 overflow-auto round fill-light'>&lt;input id=<span class="hljs-string">'car'</span> value=<span class="hljs-string">'testla'</span>&gt;<span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">input</span>&gt;</span></span></pre>
+    
+      
+      <pre class='p1 overflow-auto round fill-light'><span class="hljs-keyword">await</span> nemo.util.setInputValue(<span class="hljs-string">'car'</span>, <span class="hljs-string">'Honda'</span>)</pre>
+    
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+          
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='ischecked'>
+      isChecked
+    </h3>
+    
+    
+  </div>
+  
+
+  <p>Checks if a <code>Checkbox</code> element is checked.</p>
+
+    <div class='pre p1 fill-light mt0'>isChecked(webElement: WebElement): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean">boolean</a></div>
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>webElement</span> <code class='quiet'>(WebElement)</code>
+	    Web element.
+
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+    
+      <div class='py1 quiet mt1 prose-big'>Returns</div>
+      <code><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean">boolean</a></code>:
+        
+
+      
+    
+  
+
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Example</div>
+    
+      
+      <pre class='p1 overflow-auto round fill-light'><span class="hljs-keyword">let</span> element = <span class="hljs-keyword">await</span> nemo.view._find(<span class="hljs-string">'.result'</span>)
+<span class="hljs-keyword">let</span> flag = <span class="hljs-keyword">await</span> nemo.util.isChecked(element)</pre>
+    
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+          
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='getinnertext'>
+      getInnerText
+    </h3>
+    
+    
+  </div>
+  
+
+  <p>Returns the <code>Inner Text</code> of the web element.</p>
+
+    <div class='pre p1 fill-light mt0'>getInnerText(webElement: WebElement): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></div>
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>webElement</span> <code class='quiet'>(WebElement)</code>
+	    Web element.
+
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+    
+      <div class='py1 quiet mt1 prose-big'>Returns</div>
+      <code><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></code>:
+        
+
+      
+    
+  
+
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Example</div>
+    
+      
+      <pre class='p1 overflow-auto round fill-light'><span class="hljs-keyword">let</span> element = <span class="hljs-keyword">await</span> nemo.view._find(<span class="hljs-string">'.result'</span>)
+<span class="hljs-keyword">let</span> data = <span class="hljs-keyword">await</span> nemo.util.getInnerText(element)</pre>
+    
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+          
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='isimageloaded'>
+      isImageLoaded
+    </h3>
+    
+    
+  </div>
+  
+
+  <p>Verify if the image web element is loaded &#x26; displayed to user.</p>
+
+    <div class='pre p1 fill-light mt0'>isImageLoaded(webElement: WebElement, timeout: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a>&#x3C;<a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean">boolean</a>></div>
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>webElement</span> <code class='quiet'>(WebElement)</code>
+	    Image web element.
+
+          </div>
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>timeout</span> <code class='quiet'>(<a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>
+            = <code>30000</code>)</code>
+	    Timeout in milliseconds. Defaults to 30 seconds.
+
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+    
+      <div class='py1 quiet mt1 prose-big'>Returns</div>
+      <code><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a>&#x3C;<a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean">boolean</a>></code>:
+        
+
+      
+    
+  
+
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Example</div>
+    
+      
+      <pre class='p1 overflow-auto round fill-light'><span class="hljs-keyword">let</span> element = <span class="hljs-keyword">await</span> nemo.view._find(<span class="hljs-string">'.img'</span>)
+<span class="hljs-keyword">let</span> flag = <span class="hljs-keyword">await</span> nemo.util.isImageLoaded(element)
+or
+<span class="hljs-keyword">let</span> flag = <span class="hljs-keyword">await</span> nemo.util.isImageLoaded(element, <span class="hljs-number">45</span> * <span class="hljs-number">1000</span>)</pre>
+    
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+          
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='getalllinkelements'>
+      getAllLinkElements
+    </h3>
+    
+    
+  </div>
+  
+
+  <p>Returns a list of all the <code>anchor</code> tag elements.</p>
+
+    <div class='pre p1 fill-light mt0'>getAllLinkElements(): List&#x3C;WebElement></div>
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+    
+      <div class='py1 quiet mt1 prose-big'>Returns</div>
+      <code>List&#x3C;WebElement></code>:
+        
+
+      
+    
+  
+
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Example</div>
+    
+      
+      <pre class='p1 overflow-auto round fill-light'><span class="hljs-keyword">let</span> list = <span class="hljs-keyword">await</span> nemo.util.getAllLinkElements()</pre>
+    
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+          
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='getelementwithlinktext'>
+      getElementWithLinkText
+    </h3>
+    
+    
+  </div>
+  
+
+  <p>Returns elements whose visible text matches the given string.</p>
+
+    <div class='pre p1 fill-light mt0'>getElementWithLinkText(linkText: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a>&#x3C;WebElement></div>
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>linkText</span> <code class='quiet'>(<a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
+	    Visible text of the link displayed.
+
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+    
+      <div class='py1 quiet mt1 prose-big'>Returns</div>
+      <code><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a>&#x3C;WebElement></code>:
+        
+
+      
+    
+  
+
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Example</div>
+    
+      
+      <pre class='p1 overflow-auto round fill-light'><span class="hljs-keyword">let</span> element = <span class="hljs-keyword">await</span> nemo.util.getElementWithLinkText(<span class="hljs-string">'Elon Musk'</span>)</pre>
+    
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+          
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='clickelementwithlinktext'>
+      clickElementWithLinkText
+    </h3>
+    
+    
+  </div>
+  
+
+  <p>Clicks on element whose visible text matches the given string.</p>
+
+    <div class='pre p1 fill-light mt0'>clickElementWithLinkText(linkText: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</div>
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>linkText</span> <code class='quiet'>(<a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a>)</code>
+	    Visible text of the link displayed.
+
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Example</div>
+    
+      
+      <pre class='p1 overflow-auto round fill-light'><span class="hljs-keyword">let</span> element = <span class="hljs-keyword">await</span> nemo.util.clickElementWithLinkText(<span class="hljs-string">'Elon Musk'</span>)</pre>
+    
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+          
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='waittillalertdisplayed'>
+      waitTillAlertDisplayed
+    </h3>
+    
+    
+  </div>
+  
+
+  <p>Waits till an alert shows up on the webpage.</p>
+
+    <div class='pre p1 fill-light mt0'>waitTillAlertDisplayed()</div>
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Example</div>
+    
+      
+      <pre class='p1 overflow-auto round fill-light'><span class="hljs-keyword">await</span> nemo.util.waitTillAlertDisplayed()</pre>
+    
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+          
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='acceptalert'>
+      acceptAlert
+    </h3>
+    
+    
+  </div>
+  
+
+  <p>Accepts the alert displayed on the webpage.</p>
+
+    <div class='pre p1 fill-light mt0'>acceptAlert()</div>
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Example</div>
+    
+      
+      <pre class='p1 overflow-auto round fill-light'><span class="hljs-keyword">await</span> nemo.util.acceptAlert()</pre>
+    
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+          
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='dismissalert'>
+      dismissAlert
+    </h3>
+    
+    
+  </div>
+  
+
+  <p>Dismiss the alert displayed on the webpage.</p>
+
+    <div class='pre p1 fill-light mt0'>dismissAlert()</div>
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Example</div>
+    
+      
+      <pre class='p1 overflow-auto round fill-light'><span class="hljs-keyword">await</span> nemo.util.dismissAlert()</pre>
+    
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+          
+        
+      </div>
+    </div>
+  <script src='assets/anchor.js'></script>
+  <script src='assets/split.js'></script>
+  <script src='assets/site.js'></script>
+</body>
+</html>
