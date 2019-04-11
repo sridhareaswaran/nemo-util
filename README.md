@@ -27,3 +27,5 @@ Add `nemo-util` plugin under `plugins` section of your `config/config.json` or `
 ##### Utils
 
 View the list of methods provided 👉 [here.](https://sridhareaswaran.github.io/nemo-util)
+
+Found issues? please report [here.](https://github.com/sridhareaswaran/nemo-util/issues/new)
