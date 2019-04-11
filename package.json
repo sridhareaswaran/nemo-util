@@ -4,15 +4,14 @@
   "description": "A plugin for Nemo automation framework that provides handy utils for browser automation.",
   "main": "lib/index.js",
   "scripts": {
-    "docs:html": "documentation build src/** -f html -o docs",
-    "docs:md": "documentation build src/** -f md -o README.md"
+    "docs:html": "documentation build src/** -f html -o docs"
   },
   "keywords": [
     "Nemojs",
-    "selenium",
+    "Selenium",
     "PayPal",
     "Nemo",
-    "automation",
+    "Automation",
     "util",
     "utility",
     "plugin"
